@@ -287,7 +287,7 @@ const BlogPage = () => {
                                 <div className="slugbloginfopub">
                                     <div className="flex gap-2">
                                         <div className="adminslug">
-                                            <img src="/img/coder.jpg" alt="" />
+                                            <img src="" alt="" />
                                             <span>By Admin</span>
                                         </div>
                                         <div className="adminslug">

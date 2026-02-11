@@ -72,7 +72,7 @@ export default function blogs() {
                 <div className="container">
                     <div className="toptitle">
                         <div className="toptitlecont flex">
-                            <h1 data-aos="fade-right">Welcome to <span>Vbm Blogs!</span></h1>
+                            <h1 data-aos="fade-right">Welcome to <span>ABDELLAH BAQBA Blogs!</span></h1>
                             <p data-aos="fade-right">I write about web, mobile development and modern JavaScript frameworks. The best articles, links and news related to web and mobile development </p>
                             <div className="subemail" data-aos="fade-up">
                                 <form action="#" className="flex">

@@ -4,15 +4,15 @@ import Link from "next/link";
 export default function gallery() {
     return <>
         <Head>
-            <title>Vbm coder: Gallery Photos</title>
+            <title>ABDELLAH BAQBA: Gallery Photos</title>
         </Head>
         <div className="gallerypage">
             <div className="container">
                 <div className="gallerytopsec">
                     <div className="topphonesec">
                         <div className="lefttitlesec">
-                            <h4 data-aos="fade-right">VBMCODER GALLARY PHOTOS</h4>
-                            <h1 data-aos="fade-right">Vaibhav <br /> Photographes</h1>
+                            <h4 data-aos="fade-right">ABDELLAH BAQBA CODER GALLARY PHOTOS</h4>
+                            <h1 data-aos="fade-right">ABDELLAH BAQBA <br /> Photographes</h1>
                             <Link href='/gallery#galleryimages'><button>VIEW MORE</button></Link>
                         </div>
                         <div className="rightimgsec">
