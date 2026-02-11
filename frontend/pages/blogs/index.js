@@ -113,7 +113,7 @@ export default function blogs() {
                                                             <h2><Link href={`/blogs/${blog.slug}`}>{blog.title}</Link></h2>
                                                             <div className="fpostby flex">
                                                                 <img src="/img/coder.jpg" alt="" />
-                                                                <p>By vbm coder</p>
+                                                                <p>By Abdellah Baqba Coder</p>
                                                             </div>
                                                         </div>
                                                     </div>
