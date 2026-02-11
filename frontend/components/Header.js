@@ -116,7 +116,7 @@ export default function Header() {
                     <span onClick={handleMobileClose} className={mobile ? 'active' : ''}></span>
                     <div className="mobilelogo">
                         <img src="/img/white.png" alt="logo" />
-                        <h2>Vbmcoder</h2>
+                        <h2>ABDELLAH BAQBA CODER</h2>
                     </div>
                     <ul className="flex gap-1 flex-col flex-left mt-3" onClick={handleMobileClose}>
                         <li><Link href="/"
