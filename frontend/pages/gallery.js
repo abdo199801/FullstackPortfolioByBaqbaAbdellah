@@ -35,7 +35,7 @@ export default function gallery() {
                 <div className="container">
                     <div className="gbtmtitles text-center">
                         <h3><span>01//</span> OUR PORTFOLIO</h3>
-                        <h2>Vbmcoder captures <span>All of Your</span> <br /> beautiful memories</h2>
+                        <h2> Our captures <span>All of Your</span> <br /> beautiful memories</h2>
                     </div>
                     <div className="gallery_image_grid" >
                         <div className="image-item" data-aos="flip-left"
@@ -45,7 +45,7 @@ export default function gallery() {
                                 alt="Image 1" />
                             <div className="galeryimgiteminfo">
                                 <h2>Bright Boho Sunshine</h2>
-                                <p>By Lovette Nkayi</p>
+                                <p>By Youssef ibn ahmed</p>
                             </div>
                         </div>
                         <div className="image-item" data-aos="flip-left"
@@ -55,7 +55,7 @@ export default function gallery() {
                                 alt="Image 5" />
                             <div className="galeryimgiteminfo">
                                 <h2>Bright Boho Sunshine</h2>
-                                <p>By Lovette Nkayi</p>
+                                <p>By Youssef ibn ahmed</p>
                             </div>
                         </div>
                         <div className="image-item" data-aos="flip-left"
@@ -65,7 +65,7 @@ export default function gallery() {
                                 alt="Image 2" />
                             <div className="galeryimgiteminfo">
                                 <h2>Bright Boho Sunshine</h2>
-                                <p>By Lovette Nkayi</p>
+                                <p>By Youssef ibn ahmed</p>
                             </div>
                         </div>
                         <div className="image-item" data-aos="flip-left"
@@ -75,7 +75,7 @@ export default function gallery() {
                                 alt="Image 3" />
                             <div className="galeryimgiteminfo">
                                 <h2>Bright Boho Sunshine</h2>
-                                <p>By Lovette Nkayi</p>
+                                <p>By Youssef ibn ahmed</p>
                             </div>
                         </div>
                         <div className="image-item" data-aos="flip-left"
@@ -85,7 +85,7 @@ export default function gallery() {
                                 alt="Image 4" />
                             <div className="galeryimgiteminfo">
                                 <h2>Bright Boho Sunshine</h2>
-                                <p>By Lovette Nkayi</p>
+                                <p>By Youssef ibn ahmed</p>
                             </div>
                         </div>
                         <div className="image-item" data-aos="flip-left"
@@ -95,7 +95,7 @@ export default function gallery() {
                                 alt="Image 6" />
                             <div className="galeryimgiteminfo">
                                 <h2>Bright Boho Sunshine</h2>
-                                <p>By Lovette Nkayi</p>
+                                <p>Youssef ibn ahmed</p>
                             </div>
                         </div>
                     </div>

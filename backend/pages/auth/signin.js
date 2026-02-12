@@ -92,7 +92,7 @@ export default function signin() {
             {error && <p className='redcolor'>{error}</p>}
           </form>
 
-          <span className="agreement"><a target='_blank' href="https://www.instagram.com/it.s__venom/">Learn Admin licence agreement</a></span>
+          <span className="agreement"><a href="">Welcome To Our Portfolio</a></span>
         </>}
       </div>
     </div>
