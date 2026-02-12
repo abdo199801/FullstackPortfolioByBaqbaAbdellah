@@ -176,11 +176,7 @@ export default function Home() {
             <div className="heroinfoleft">
               <span className="hero_sb_title" data-aos="fade-right" >I am Abdellah Baqba</span>
               <h1 className="hero_title" data-aos="fade-right" >Développeur Web & <br /> <span className="typed-text">Web Scraping</span> </h1>
-              <div className="hero_img_box heroimgbox" data-aos="flip-left"
-                data-aos-easing="ease-out-cubic"
-                data-aos-duration="2000">
-                <img src="" alt="" />
-              </div>
+              
               <div className="lead" data-aos="fade-up" >Passionné par la digitalisation, je vois l’informatique non seulement comme un outil, mais comme une force capable de transformer nos façons de penser, de travailler et de vivre.</div>
               <div className="hero_btn_box" data-aos="fade-up">
                 <button onClick={handleDownloadCV} className="download_cv">Download CV <BiDownload /></button>
