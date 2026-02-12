@@ -205,7 +205,7 @@ export default function blogs() {
 
                                                 Bona autem corporis huic sunt, quod posterius posui, similiora. Quod cum ita sit,
                                                 perspicuum est omnis rectas res atque laudabilis eo referri, ut</p>
-                                            <h4 className="flex"><img src="img/coder.jpg" alt="" /><span>by vbm coder</span></h4>
+                                            <h4 className="flex"><img src="img/coder.jpg" alt="" /><span>by Abdellah baqba coder</span></h4>
                                         </div>
                                     </div>
                                 })}
