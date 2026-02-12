@@ -35,7 +35,7 @@ export default function Setting() {
 
                 <div className="profilesettings">
                     <div className="leftprofile_details flex">
-                        <img src="/img/coder.png" alt="coder" data-aos="fade-left" />
+                        <img src="/img/1.png" alt="coder" data-aos="fade-left" />
                         <div className="w-100" data-aos="fade-up">
                             <div className='flex flex-sb flex-left mt-2'>
                                 <h2>My Profile:</h2>
