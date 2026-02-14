@@ -96,7 +96,7 @@ export default function projectslug() {
                     <div className="projectsluginfo">
                         <div className="leftmainproinfo">
                             <h1>{alldata && alldata[0]?.projectcategory}</h1>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi facere incidunt a quo ratione ad itaque, tenetur molestias tempora dolore cumque at enim alias esse similique deleniti sint labore repudiandae?</p>
+                            <p>In the fast-evolving landscape of informatics and digital transformation, data isn’t just a resource—it’s a decision-making  </p>
                             <a target="_blank" href={alldata && alldata[0]?.livepreview}>Live Preview</a>
                         </div>
                         <div className="rightmainproinfo">
