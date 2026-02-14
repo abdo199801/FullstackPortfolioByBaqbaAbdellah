@@ -113,8 +113,8 @@ export default function projectslug() {
                                 <h2>{formatDate(createdAtDate)}</h2>
                             </div>
                             <div>
-                                <h3>Designer</h3>
-                                <h2>vaibhav mak</h2>
+                                <h3>Coder</h3>
+                                <h2>Abdellah Baqba</h2>
                             </div>
                         </div>
                     </div>
