@@ -35,8 +35,7 @@ export default function services() {
                                 <li>Performance optimisée et SEO</li>
                                 <li>Maintenance et mises à jour</li>
                             </ul>
-                            <p>Développement de landing pages et de sites web modernes avec Next.js. Création et personnalisation de sites vitrines pour des besoins marketing et consulting.</p>
-                        </div>
+                             </div>
                         
                         {/* Service 02 - Web Scraping & Automation */}
                         <div className="csservice" data-aos="fade-right">
@@ -52,7 +51,6 @@ export default function services() {
                                 <li>Automatisation de la mise à jour des données</li>
                                 <li>Génération de leads B2B</li>
                             </ul>
-                            <p>Développement de scripts Python pour l'extraction automatisée de données publiques provenant de sites professionnels et annuaires. Utilisation de BeautifulSoup, Scrapy et Selenium.</p>
                         </div>
                         
                         {/* Service 03 - CRM & Data Integration */}
@@ -69,7 +67,7 @@ export default function services() {
                                 <li>Prospection ciblée et automatisée</li>
                                 <li>Garantie d'exactitude et fraîcheur des données</li>
                             </ul>
-                            <p>Collecte d'informations professionnelles pour la génération de leads. Intégration des données dans un CRM ou fichier Excel pour aider l'équipe commerciale dans la prospection ciblée.</p>
+                            
                         </div>
                         
                         {/* Service 04 - CMS Development */}
@@ -82,11 +80,9 @@ export default function services() {
                             <ul>
                                 <li>Création de sites WordPress</li>
                                 <li>Personnalisation de thèmes</li>
-                                <li>Développement de plugins</li>
                                 <li>Sites pour sociétés de programmation</li>
                                 <li>Maintenance et optimisation</li>
                             </ul>
-                            <p>Création et développement de sites web avec CMS WORDPRESS. Expérience chez IT ADVISOR en tant que développeur informatique pour la création et le développement de sites web.</p>
                         </div>
                         
                         {/* Service 05 - Database & SQL */}
@@ -98,12 +94,10 @@ export default function services() {
                             </div>
                             <ul>
                                 <li>Conception de bases de données</li>
-                                <li>Développement SQL avancé</li>
-                                <li>Optimisation des requêtes</li>
-                                <li>PostgreSQL</li>
-                                <li>European Bachelor IT & Networks</li>
+                                <li>Développement avancé</li>
+                                <li>Optimisation de performances</li>
                             </ul>
-                            <p>Formation en Database Development and SQL - IFGIA. Conception et optimisation de bases de données relationnelles pour applications web et systèmes d'information.</p>
+                            
                         </div>
                         
                         {/* Service 06 - Lead Generation */}
@@ -120,8 +114,20 @@ export default function services() {
                                 <li>Automatisation commerciale</li>
                                 <li>Mise à jour régulière des informations</li>
                             </ul>
-                            <p>Collecte d'informations professionnelles pertinentes (prénom, nom, intitulé de poste, entreprise, email professionnel). Automatisation de la mise à jour régulière des informations pour garantir l'exactitude et la fraîcheur des données.</p>
                         </div>
+                        <div className="csservice" data-aos="fade-left">
+                                    <span>07</span>
+                                    <div>
+                                        <h2>Subscriptions</h2>
+                                        {/* Image removed */}
+                                    </div>
+                                    <ul>
+                                        <li>ChatGPT Plus / Pro</li>
+                                        <li>Microsoft 365 (Office)</li>
+                                        <li>Adobe Creative Cloud</li>
+                                        <li>Netflix / Spotify Premium</li>
+                                    </ul>
+                                </div>
                     </div>
                 </div>
             </div>
@@ -158,7 +164,7 @@ export default function services() {
                         <div className="pricingcard" data-aos="fade-up">
                             <h4>Site Vitrine</h4>
                             <p>Next.js / WordPress</p>
-                            <h2>À partir de <span>5€</span></h2>
+                            <h2>À partir de <span>1€</span></h2>
                             <Link href='/contact'><button>Demander un devis</button></Link>
                             <div>
                                 <h5>Inclus :</h5>
@@ -190,21 +196,8 @@ export default function services() {
                             </div>
                         </div>
                     </div>
-                    
-                    {/* Contact Information from CV */}
-                    <div style={{ 
-                        marginTop: '4rem', 
-                        padding: '2rem', 
-                        backgroundColor: '#f8f9fa', 
-                        borderRadius: '10px',
-                        textAlign: 'center'
-                    }}>
-                        
-                       
-                    </div>
                 </div>
             </div>
         </div>
-
-    </>
+    </> 
 }
