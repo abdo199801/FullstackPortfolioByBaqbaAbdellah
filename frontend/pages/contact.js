@@ -101,8 +101,7 @@ export default function contact() {
                         </div>
 
                         <div style={{ marginTop: '1.5rem' }}>
-                            <p style={{ color: '#555' }}><strong>Langues :</strong> English (Courant) • Français (Assez bien) • Arabe (Natif)</p>
-                            <p style={{ color: '#555', marginTop: '0.5rem' }}><strong>Localisation :</strong> AL AMAL 2 NR 1404, KENITRA, Maroc</p>
+                            <p style={{ color: '#555', marginTop: '0.5rem' }}><strong>Localisation :</strong> KENITRA, Maroc</p>
                         </div>
                     </div>
                     
