@@ -80,7 +80,7 @@ export default function contact() {
                         <div className="leftsociinfo">
                             <ul>
                                 <li><FaPhoneVolume /> <span>Téléphone: <a href="tel:+212 676367706" rel="nofollow" target="_blank">0676367706</a></span></li>
-                                <li><MdAttachEmail /> <span>Email: <a href="mailto:abdobaq777@gmail.com" rel="nofollow" target="_blank">abdobag777@gmail.com</a></span></li>
+                                <li><MdAttachEmail /> <span>Email: <a href="mailto:abdobaq777@gmail.com" rel="nofollow" target="_blank">abdobaq777@gmail.com</a></span></li>
                                 <li><GrLinkedin /> <span>LinkedIn: <a href="https://www.linkedin.com/in/abdellah-baqba-tech/" rel="nofollow" target="_blank">Abdellah Baqba</a></span></li>
                                 <li><FaGithub /> <span>GitHub: <a href="https://github.com/" rel="nofollow" target="_blank">@abdellahbaqba</a></span></li>
                             </ul>

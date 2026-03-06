@@ -4,6 +4,7 @@ import { FaTwitter } from "react-icons/fa";
 import { LiaBasketballBallSolid } from "react-icons/lia";
 import { GrLinkedinOption } from "react-icons/gr";
 import { FaGithub } from "react-icons/fa";
+import { FaWhatsapp } from "react-icons/fa";
 import { BiDownload } from "react-icons/bi";
 import { GoArrowUpRight } from "react-icons/go";
 import { useEffect, useState } from "react";
@@ -147,8 +148,8 @@ export default function Home() {
   const handleDownloadCV = (e) => {
     e.preventDefault();
     const link = document.createElement('a');
-    link.href = '/img/baqba_abdellah.pdf';
-    link.download = 'Abdellah_Baqba_CV.pdf';
+    link.href = '/img/sample_cv.pdf';
+    link.download = 'Sample_CV.pdf';
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
@@ -158,8 +159,8 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Abdellah Baqba - Portfolio</title>
-        <meta name="description" content="Abdellah Baqba - Développeur Web & Web Scraping" />
+        <title>Portfolio - Web Developer & Web Scraping Expert</title>
+        <meta name="description" content="Portfolio - Développeur Web & Web Scraping" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="shortcut icon" type="image/png" href="/favicon.png" />
       </Head>
@@ -174,17 +175,17 @@ export default function Home() {
         <div className="container">
           <div className="flex w-100">
             <div className="heroinfoleft">
-              <span className="hero_sb_title" data-aos="fade-right" >I am Abdellah Baqba</span>
+              <span className="hero_sb_title" data-aos="fade-right" >I am Abdellah Baqba </span>
               <h1 className="hero_title" data-aos="fade-right" >Développeur Web & <br /> <span className="typed-text">Web Scraping</span> </h1>
               
-              <div className="lead" data-aos="fade-up" >Passionné par la digitalisation, je vois l’informatique non seulement comme un outil, mais comme une force capable de transformer nos façons de penser, de travailler et de vivre.</div>
+              <div className="lead" data-aos="fade-up" >Passionné par la digitalisation, je vois l'informatique non seulement comme un outil, mais comme une force capable de transformer nos façons de penser, de travailler et de vivre.</div>
               <div className="hero_btn_box" data-aos="fade-up">
-                <button onClick={handleDownloadCV} className="download_cv">Download CV <BiDownload /></button>
+               <button onClick={() => window.open('https://wa.me/212676367706', '_blank')} className="download_cv">Contact on WhatsApp <FaWhatsapp /></button>
                 <ul className="hero_social">
                   <li><a href="/"><FaTwitter /></a></li>
                   <li><a href="/"><LiaBasketballBallSolid /></a></li>
-                  <li><a href="/https://www.linkedin.com/in/abdellah-baqba-tech/"><GrLinkedinOption /></a></li>
-                  <li><a href="/https://github.com/"><FaGithub /></a></li>
+                 <li><a href="https://www.linkedin.com/in/abdellah-baqba-tech/" target="_blank" rel="noopener noreferrer"><GrLinkedinOption /></a></li>
+                  <li><a href="/"><FaGithub /></a></li>
                 </ul>
               </div>
             </div>
@@ -298,46 +299,51 @@ export default function Home() {
           <div className="experience">
             <div className="experience_title flex gap-1" data-aos="fade-right">
               <LuMedal />
-              <h2>My Experience</h2>
+              <h2>Professional Journey</h2>
             </div>
             <div className="exper_cards">
               <div className="exper_card" data-aos="fade-up">
-                <span>03/09/2025 - Present</span>
-                <h3>BLUE OCEAN PRODUCTION</h3>
-                <p>Stage - Développeur Web & Web Scraping</p>
+                <span>Current</span>
+                <h3>Web Development</h3>
+                <p>Building digital solutions and web applications</p>
               </div>
               <div className="exper_card" data-aos="fade-up">
-                <span>2024-2025</span>
-                <h3>IT ADVISOR</h3>
-                <p>Stage - Développeur Informatique CMS WordPress</p>
+                <span>Previous</span>
+                <h3>Web Development</h3>
+                <p>Creating and maintaining websites</p>
+              </div>
+              <div className="exper_card" data-aos="fade-up">
+                <span>Earlier</span>
+                <h3>Development Work</h3>
+                <p>Various web development projects</p>
               </div>
             </div>
           </div>
           <div className="education">
             <div className="experience_title flex gap-1" data-aos="fade-left">
               <PiGraduationCap />
-              <h2>My Education</h2>
+              <h2>Learning Path</h2>
             </div>
             <div className="exper_cards">
               <div className="exper_card" data-aos="fade-up">
-                <span>2025</span>
-                <h3>EUROPEAN BACHELOR IT & NETWORKS</h3>
-                <p>Database Development and SQL - IFGIA</p>
+                <span>Advanced Studies</span>
+                <h3>Computer Science</h3>
+                <p>Specialized in modern web technologies</p>
               </div>
               <div className="exper_card" data-aos="fade-up">
-                <span>2023</span>
-                <h3>TECHNICIEN SPÉCIALISÉ</h3>
-                <p>Développement Informatique - I'Institut Professionnel d'Enseignement Administratif Privé</p>
+                <span>Higher Education</span>
+                <h3>Software Development</h3>
+                <p>Comprehensive programming training</p>
               </div>
               <div className="exper_card" data-aos="fade-up">
-                <span>2021</span>
-                <h3>TECHNICIEN SPÉCIALISÉ</h3>
-                <p>Educateur en petite enfance - Institut Spécialisé de Technologie Appliquée Maamoura</p>
+                <span>Foundation</span>
+                <h3>Information Technology</h3>
+                <p>Core concepts and programming fundamentals</p>
               </div>
               <div className="exper_card" data-aos="fade-up">
-                <span>2018</span>
-                <h3>BACCALAURÉAT</h3>
-                <p>Science Humaine - Lycée Abou Hayane Tawhidi</p>
+                <span>Secondary</span>
+                <h3>General Studies</h3>
+                <p>High school education</p>
               </div>
             </div>
           </div>
@@ -355,14 +361,14 @@ export default function Home() {
             <div className="mys_card" data-aos="fade-right">
               <div className="mys_inner">
                 <img src="/img/python.svg" alt="" />
-                <h3>92%</h3>
+                <h3>80%</h3>
               </div>
               <p className="text-center">Python</p>
             </div>
             <div className="mys_card" data-aos="fade-right">
               <div className="mys_inner">
                 <img src="/img/firebase.svg" alt="" />
-                <h3>80%</h3>
+                <h3>50%</h3>
               </div>
               <p className="text-center">Firebase</p>
             </div>

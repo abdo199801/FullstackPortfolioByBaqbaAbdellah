@@ -140,7 +140,7 @@ export default function services() {
                         <div className="pricingcard">
                             <h4>Web Scraping</h4>
                             <p>Scripts d'extraction de données</p>
-                            <h2>À partir de <span>299€</span></h2>
+                            <h2>À partir de <span>5€</span></h2>
                             <Link href='/contact'><button>Demander un devis</button></Link>
                             <div>
                                 <h5>Inclus :</h5>
